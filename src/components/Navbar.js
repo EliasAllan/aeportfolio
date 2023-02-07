@@ -4,10 +4,12 @@ import React from 'react'
 function Navbar() {
     
     return (
-       <nav>
-        <a href="#Aboutme">About me</a>
-        <a href="#work">Work</a>
-        <a href="#contactinfo">Contact me</a>   
+       <nav id="navbar">
+        <a id="myname">Allan Elias</a>
+        <a href="/">About me</a>
+        <a href="projects">Portfolio</a>
+        <a href="contact">Contact me</a>   
+        <a href="">Resume</a>   
       </nav>
     )
 }
