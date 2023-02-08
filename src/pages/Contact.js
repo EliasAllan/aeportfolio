@@ -2,6 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
+    <div id="form">
     <form
     id="contact-form"
     // action={FORM_ENDPOINT}
@@ -22,6 +23,7 @@ function Contact() {
         <button type="submit"> Send a message </button>
       </div>
     </form>
+    </div>
   );
 }
 

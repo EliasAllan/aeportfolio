@@ -1,3 +1,7 @@
+*{
+  background-color: #b0c6f1;
+}
+
 .App {
   text-align: center;
 }
@@ -56,3 +60,4 @@ a{
   display: flex;
   flex-direction: column;
 }
+

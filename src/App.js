@@ -1,17 +1,17 @@
-
+// import logo from "./logo.svg";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
+        <Header/>
         <Routes>
           <Route path="/">
             <Route index element={<About />} />
