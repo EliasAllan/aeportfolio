@@ -1,8 +1,18 @@
 import React from "react";
-
+import gitHubLogo from "../github-mark.png";
 
 function Footer() {
-  return <h1>Hello I'm Footer</h1>;
+  return (
+    <section id="footer-icons">
+      <img
+        className="footer-icon"
+        src={gitHubLogo}
+        alt="github-logo"
+        width="40px"
+        height="40px"
+      />
+    </section>
+  );
 }
 
 export default Footer;

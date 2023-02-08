@@ -46,3 +46,13 @@ a{
   font-size: larger;
   font-family: 'Times New Roman', Times, serif;
 }
+
+#footer-icons{
+  display:flex;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
