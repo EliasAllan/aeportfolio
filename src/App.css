@@ -91,6 +91,13 @@ a {
 
 }
 
+#resume-link{
+  display:flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
 #proj-title {
   display: block;
 }
