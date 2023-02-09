@@ -72,7 +72,10 @@ a {
 
 #about-description {
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 #about-text {

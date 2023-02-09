@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
-import petAdoptionSc from "../pet-adoption.png";
-import drinkFindifierSc from "../drinkrenderscreen.png";
-import futureblogSc from "../homepage.png";
+import petAdoptionSc from "../assets/pet-adoption.png";
+import drinkFindifierSc from "../assets/drinkrenderscreen.png";
+import futureblogSc from "../assets/homepage.png";
 import { Link } from "react-router-dom";
 function Projects() {
   const projects = [
