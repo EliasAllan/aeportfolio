@@ -82,3 +82,11 @@ a{
 #proj-title{
   display:block;
 }
+
+#contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+

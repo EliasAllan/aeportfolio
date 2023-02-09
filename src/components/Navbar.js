@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 
 function Navbar() {
-  const activeClassName = {background: "black"}
+  const activeClassName = {background: "aqua"}
   return (
     <nav id="navbar">
       <Link to="/">Allan Elias</Link>
@@ -13,9 +13,25 @@ function Navbar() {
       >
         About me
       </NavLink>
-      <Link to="/projects">Portfolio</Link>
-      <Link to="/contact">Contact me</Link>
-      <Link to="/resume">Resume</Link>
+
+      <NavLink 
+      to="/projects"
+      style={({ isActive }) => (isActive ? activeClassName : undefined)}
+      >Portfolio
+      </NavLink>
+
+      <NavLink 
+      to="/contact"
+      style={({ isActive }) => (isActive ? activeClassName : undefined)}
+      >Contact me
+      </NavLink>
+
+      <NavLink 
+      to="/resume"
+      style={({ isActive }) => (isActive ? activeClassName : undefined)}
+      >Resume
+      </NavLink>
+
     </nav>
   );
 }
