@@ -46,9 +46,10 @@
   justify-content: space-around;
 }
 a{
+  text-decoration: none;
   margin:20px;
   font-size: larger;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 #footer-icons{
@@ -61,3 +62,23 @@ a{
   flex-direction: column;
 }
 
+#about-description{
+  display: flex;
+  justify-content:space-around
+}
+
+#about-text{
+  width: 33%;
+  margin: 75px 0px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.proj-card{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+#proj-title{
+  display:block;
+}

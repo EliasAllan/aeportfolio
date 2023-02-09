@@ -4,9 +4,10 @@ import React from "react";
 function ProjectCard(props) {
     console.log(props)
   return (
-  
-  <h1>{props.props.title}</h1>,
+  <div class="proj-card">
+  <h1 class="proj-title">{props.props.title}</h1>
   <>{props.props.img}</>
+  </div>
   )
 }
 
