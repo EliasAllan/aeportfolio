@@ -110,11 +110,23 @@ a {
     margin-top: 55px;
     flex-direction: column;
   }
+
+  #about-text {
+    width: 50%;
+    margin: 50px 0px;
+    font-family: 'Rubik', sans-serif;
+  }
 }
 
 @media screen and (max-width: 768px) {
   #navbar {
     margin-top: 55px;
     flex-direction: column;
+  }
+
+  #about-text {
+    width: 50%;
+    margin: 50px 0px;
+    font-family: 'Rubik', sans-serif;
   }
 }
