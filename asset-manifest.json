@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/hire-me/static/css/main.073c9b0a.css",
-    "main.js": "/hire-me/static/js/main.c49b856a.js",
+    "main.css": "/hire-me/static/css/main.c532c94f.css",
+    "main.js": "/hire-me/static/js/main.29523666.js",
     "static/js/787.f615d3f1.chunk.js": "/hire-me/static/js/787.f615d3f1.chunk.js",
-    "static/media/logo.svg": "/hire-me/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Brazilpic.jpg": "/hire-me/static/media/Brazilpic.3ed12fc18f84d85973b4.jpg",
+    "static/media/horiseon.png": "/hire-me/static/media/horiseon.22fd75724c09fba82266.png",
+    "static/media/pet-adoption.png": "/hire-me/static/media/pet-adoption.3c02ae5e56d92ae57777.png",
+    "static/media/drinkrenderscreen.png": "/hire-me/static/media/drinkrenderscreen.4d10fe68e41c1348f5be.png",
+    "static/media/study-guide.png": "/hire-me/static/media/study-guide.357bd8b6674d9654687a.png",
+    "static/media/homepage.png": "/hire-me/static/media/homepage.ed2cbb5eda7b6fb7ec47.png",
+    "static/media/jate.png": "/hire-me/static/media/jate.cfc89a07810b70579575.png",
+    "static/media/facebooklogo.png": "/hire-me/static/media/facebooklogo.672bc39dbdee2a4a7353.png",
     "index.html": "/hire-me/index.html",
-    "main.073c9b0a.css.map": "/hire-me/static/css/main.073c9b0a.css.map",
-    "main.c49b856a.js.map": "/hire-me/static/js/main.c49b856a.js.map",
+    "main.c532c94f.css.map": "/hire-me/static/css/main.c532c94f.css.map",
+    "main.29523666.js.map": "/hire-me/static/js/main.29523666.js.map",
     "787.f615d3f1.chunk.js.map": "/hire-me/static/js/787.f615d3f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.c49b856a.js"
+    "static/css/main.c532c94f.css",
+    "static/js/main.29523666.js"
   ]
 }
