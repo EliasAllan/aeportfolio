@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Header from "./components/Header";
 import Resume from "./pages/Resume";
 
+
 function App() {
   return (
     <>

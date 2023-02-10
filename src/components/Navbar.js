@@ -3,7 +3,9 @@ import { NavLink } from "react-router-dom";
 
 
 function Navbar() {
-  const activeClassName = {background: "aqua"}
+  const activeClassName = {
+    background: "aqua"
+  }
   return (
     <nav id="navbar">
       
@@ -15,21 +17,21 @@ function Navbar() {
       </NavLink>
 
       <NavLink 
-      class="navitem"
+      className="navitem"
       to="/projects"
       style={({ isActive }) => (isActive ? activeClassName : undefined)}
       >Portfolio
       </NavLink>
 
       <NavLink 
-      class="navitem"
+      className="navitem"
       to="/contact"
       style={({ isActive }) => (isActive ? activeClassName : undefined)}
       >Contact me
       </NavLink>
 
       <NavLink 
-      class="navitem"
+      className="navitem"
       to="/resume"
       style={({ isActive }) => (isActive ? activeClassName : undefined)}
       >Resume
