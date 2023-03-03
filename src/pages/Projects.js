@@ -4,7 +4,7 @@ import petAdoptionSc from "../assets/pet-adoption.png";
 import drinkFindifierSc from "../assets/drinkrenderscreen.png";
 import futureblogSc from "../assets/homepage.png";
 import horiseonSc from "../assets/horiseon.png";
-import studyGuideSc from "../assets/study-guide.png";
+import studyBuddySc from "../assets/study-buddy.png";
 import jateSc from "../assets/jate.png";
 
 
@@ -97,15 +97,15 @@ function Projects() {
       
     },
     {
-      title: "Study guide",
-      link: "https://eliasallan.github.io/Study-guide/",
-      gitLink: "https://github.com/EliasAllan/Study-guide",
+      title: "Study buddy",
+      link: "https://study-buddy-dream-team.herokuapp.com/",
+      gitLink: "https://github.com/EliasAllan/study-buddy",
       img: (
-        <Link to="https://eliasallan.github.io/Study-guide/" href="true">
+        <Link to="https://study-buddy-dream-team.herokuapp.com/" href="true">
           <img
             className="project-screenshot"
-            src={studyGuideSc}
-            alt="study-guide-screenshot"
+            src={studyBuddySc}
+            alt="study-buddy-screenshot"
             width="100%"
             border="20px"
        
