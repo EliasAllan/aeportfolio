@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/hire-me/static/css/main.73ab7f96.css",
-    "main.js": "/hire-me/static/js/main.e55cb946.js",
+    "main.js": "/hire-me/static/js/main.c7cb1262.js",
     "static/js/787.f615d3f1.chunk.js": "/hire-me/static/js/787.f615d3f1.chunk.js",
     "static/media/Brazilpic.jpg": "/hire-me/static/media/Brazilpic.3ed12fc18f84d85973b4.jpg",
     "static/media/horiseon.png": "/hire-me/static/media/horiseon.22fd75724c09fba82266.png",
     "static/media/pet-adoption.png": "/hire-me/static/media/pet-adoption.3c02ae5e56d92ae57777.png",
     "static/media/drinkrenderscreen.png": "/hire-me/static/media/drinkrenderscreen.4d10fe68e41c1348f5be.png",
-    "static/media/study-guide.png": "/hire-me/static/media/study-guide.357bd8b6674d9654687a.png",
+    "static/media/study-buddy.png": "/hire-me/static/media/study-buddy.01e66f4a3c6a0971b7cb.png",
     "static/media/homepage.png": "/hire-me/static/media/homepage.ed2cbb5eda7b6fb7ec47.png",
     "static/media/jate.png": "/hire-me/static/media/jate.cfc89a07810b70579575.png",
     "static/media/facebooklogo.png": "/hire-me/static/media/facebooklogo.672bc39dbdee2a4a7353.png",
     "index.html": "/hire-me/index.html",
     "main.73ab7f96.css.map": "/hire-me/static/css/main.73ab7f96.css.map",
-    "main.e55cb946.js.map": "/hire-me/static/js/main.e55cb946.js.map",
+    "main.c7cb1262.js.map": "/hire-me/static/js/main.c7cb1262.js.map",
     "787.f615d3f1.chunk.js.map": "/hire-me/static/js/787.f615d3f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73ab7f96.css",
-    "static/js/main.e55cb946.js"
+    "static/js/main.c7cb1262.js"
   ]
 }
