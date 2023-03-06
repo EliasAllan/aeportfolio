@@ -122,7 +122,7 @@ function Projects() {
   ];
   return (
     <> 
-    <swiper-container>
+    <swiper-container slides-per-view="2" speed="500" loop="true">
       {projects.map((project,index) => (
         <>         
           <swiper-slide>
