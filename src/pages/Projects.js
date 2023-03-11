@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ProjectCard from "../components/ProjectCard";
 import petAdoptionSc from "../assets/pet-adoption.png";
 import drinkFindifierSc from "../assets/drinkrenderscreen.png";
@@ -7,10 +7,10 @@ import horiseonSc from "../assets/horiseon.png";
 import studyBuddySc from "../assets/study-buddy.png";
 import jateSc from "../assets/jate.png";
 import { Link } from "react-router-dom";
-
+import Media from "react-media";
 
 // import function to register Swiper custom elements
-import { register } from 'swiper/element/bundle';
+import { register } from "swiper/element/bundle";
 // register Swiper custom elements
 register();
 
@@ -28,11 +28,9 @@ function Projects() {
             alt="study-buddy-screenshot"
             width="100%"
             border="20px"
-       
           />
         </Link>
       ),
-      
     },
     {
       title: "Pet Adoption",
@@ -82,10 +80,9 @@ function Projects() {
           />
         </Link>
       ),
-      
     },
     {
-      title: "Just Another Text Editor",
+      title: "J.A.T.E",
       link: "https://extra-doodle.herokuapp.com/",
       gitLink: "https://github.com/EliasAllan/extra-doodle",
       img: (
@@ -99,7 +96,6 @@ function Projects() {
           />
         </Link>
       ),
-      
     },
     {
       title: "Horiseon Website",
@@ -116,22 +112,56 @@ function Projects() {
           />
         </Link>
       ),
-      
     },
-
   ];
   return (
-    <> 
-    <swiper-container slides-per-view="1" speed="500" loop="true">
-      {projects.map((project,index) => (
-        <>         
-          <swiper-slide>
-            <ProjectCard key={index} props={project} />
-          </swiper-slide>      
-        </>
-      ))}
-    </swiper-container>
-    </>
+    <div>
+      <Media
+        queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)",
+        }}
+      >
+        {(matches) => (
+          <Fragment>
+            {matches.small && (
+              <>
+                <swiper-container slides-per-view="1" speed="500" loop="true">
+                  {projects.map((project, index) => (
+                    <>
+                      <swiper-slide>
+                        <ProjectCard key={index} props={project} />
+                      </swiper-slide>
+                    </>
+                  ))}
+                </swiper-container>
+              </>
+            )}
+            {matches.medium && (
+              <>
+                <swiper-container slides-per-view="2" speed="500" loop="true">
+                  {projects.map((project, index) => (
+                    <>
+                      <swiper-slide>
+                        <ProjectCard key={index} props={project} />
+                      </swiper-slide>
+                    </>
+                  ))}
+                </swiper-container>
+              </>
+            )}
+            {matches.large && (
+              <div className="container">
+                {projects.map((project, index) => (
+                  <ProjectCard key={index} props={project} />
+                ))}
+              </div>
+            )}
+          </Fragment>
+        )}
+      </Media>
+    </div>
   );
 }
 
