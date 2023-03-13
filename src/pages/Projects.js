@@ -127,10 +127,10 @@ function Projects() {
           <Fragment>
             {matches.small && (
               <>
-                <swiper-container slides-per-view="1" speed="500" loop="true">
+                <swiper-container slides-per-view="1" speed="500" loop="true" pagination="true" >
                   {projects.map((project, index) => (
                     <>
-                      <swiper-slide>
+                      <swiper-slide  >
                         <ProjectCard key={index} props={project} />
                       </swiper-slide>
                     </>
@@ -140,7 +140,7 @@ function Projects() {
             )}
             {matches.medium && (
               <>
-                <swiper-container slides-per-view="2" speed="500" loop="true">
+                <swiper-container slides-per-view="2" speed="500" loop="true" pagination="true">
                   {projects.map((project, index) => (
                     <>
                       <swiper-slide>

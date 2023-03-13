@@ -57,13 +57,14 @@ a {
 }
 
 .project-screenshot{
-  -webkit-transition : border 500ms ease-out; 
- -moz-transition : border 500ms ease-out;
- -o-transition : border 500ms ease-out;
+  -webkit-transition : border 300ms ease-out; 
+ -moz-transition : border 300ms ease-out;
+ -o-transition : border 300ms ease-out;
+ border: 2px
 }
 
 .project-screenshot:hover{
-  border : 30px solid rgb(0, 217, 255);   
+  border : 5px solid rgb(0, 217, 255);   
 }
 
 #footer-icons {
