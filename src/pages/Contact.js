@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 // import './style.css';
 
-import { checkPassword, validateEmail } from '../utils/helpers';
+import { checkPassword, validateEmail } from "../utils/helpers";
 
 function Contact() {
   const inputStyle = {
-    backgroundColor: "white"
+    backgroundColor: "white",
   };
 
-  const [email, setEmail] = useState('');
-  const [name, setUserName] = useState('');
-  const [message, setMessage] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
+  const [email, setEmail] = useState("");
+  const [name, setUserName] = useState("");
+  const [message, setMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -20,9 +20,9 @@ function Contact() {
     const inputValue = target.value;
 
     // Based on the input type, we set the state of either email, username, and message
-    if (inputType === 'email') {
+    if (inputType === "email") {
       setEmail(inputValue);
-    } else if (inputType === 'name') {
+    } else if (inputType === "name") {
       setUserName(inputValue);
     } else {
       setMessage(inputValue);
@@ -35,31 +35,24 @@ function Contact() {
 
     // First we check to see if the email is not valid or if the name is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !name) {
-      setErrorMessage('Email or username is invalid');
+      setErrorMessage("Email or username is invalid");
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the message is not valid. If so, we set an error message regarding the message.
     }
-    if (!checkPassword(message)) {
-      setErrorMessage(
-        `Choose a more secure message for the account: ${name}`
-      );
-      return;
-    }
-    alert(`Hello ${name}`);
+  
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
-    setUserName('');
-    setMessage('');
-    setEmail('');
+    setUserName("");
+    setMessage("");
+    setEmail("");
   };
-  
-  return (
 
-<div>
-      <form className="form">
+  return (
+    <div>
+      <form action="mailto:allanrnelias@gmail.com" className="form">
         <input
-        style={inputStyle}
+          style={inputStyle}
           value={name}
           name="name"
           onChange={handleInputChange}
@@ -67,7 +60,7 @@ function Contact() {
           placeholder="name"
         />
         <input
-        style={inputStyle}
+          style={inputStyle}
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -75,14 +68,16 @@ function Contact() {
           placeholder="email"
         />
         <textarea
-        style={inputStyle}
+          style={inputStyle}
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="message"
         />
-        <button type="button" style={inputStyle} onClick={handleFormSubmit}>Submit</button>
+        <button type="submit" value="Send" style={inputStyle} onClick={handleFormSubmit}>
+          Submit
+        </button>
       </form>
       {errorMessage && (
         <div>
@@ -90,7 +85,6 @@ function Contact() {
         </div>
       )}
     </div>
-
   );
 }
 
