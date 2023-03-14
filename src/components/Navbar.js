@@ -4,7 +4,9 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const activeClassName = {
-    background: "aqua"
+    background: "aqua",
+    borderRadius: "5px"
+    
   }
   return (
     <nav id="navbar">
