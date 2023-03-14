@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hire-me/static/css/main.73ab7f96.css",
-    "main.js": "/hire-me/static/js/main.934a69ae.js",
+    "main.css": "/hire-me/static/css/main.23dc790a.css",
+    "main.js": "/hire-me/static/js/main.31ad6e3c.js",
     "static/js/787.f615d3f1.chunk.js": "/hire-me/static/js/787.f615d3f1.chunk.js",
     "static/media/Brazilpic.jpg": "/hire-me/static/media/Brazilpic.3ed12fc18f84d85973b4.jpg",
     "static/media/horiseon.png": "/hire-me/static/media/horiseon.22fd75724c09fba82266.png",
@@ -12,12 +12,12 @@
     "static/media/jate.png": "/hire-me/static/media/jate.cfc89a07810b70579575.png",
     "static/media/facebooklogo.png": "/hire-me/static/media/facebooklogo.672bc39dbdee2a4a7353.png",
     "index.html": "/hire-me/index.html",
-    "main.73ab7f96.css.map": "/hire-me/static/css/main.73ab7f96.css.map",
-    "main.934a69ae.js.map": "/hire-me/static/js/main.934a69ae.js.map",
+    "main.23dc790a.css.map": "/hire-me/static/css/main.23dc790a.css.map",
+    "main.31ad6e3c.js.map": "/hire-me/static/js/main.31ad6e3c.js.map",
     "787.f615d3f1.chunk.js.map": "/hire-me/static/js/787.f615d3f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73ab7f96.css",
-    "static/js/main.934a69ae.js"
+    "static/css/main.23dc790a.css",
+    "static/js/main.31ad6e3c.js"
   ]
 }
