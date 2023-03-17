@@ -60,7 +60,8 @@ a {
   -webkit-transition : border 300ms ease-out; 
  -moz-transition : border 300ms ease-out;
  -o-transition : border 300ms ease-out;
- border: 2px
+ border: 2px;
+ border-radius: 1rem
 }
 
 .project-screenshot:hover{

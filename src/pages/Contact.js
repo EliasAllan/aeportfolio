@@ -40,7 +40,6 @@ function Contact() {
       return;
       // Then we check to see if the message is not valid. If so, we set an error message regarding the message.
     }
-  
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName("");
@@ -49,6 +48,7 @@ function Contact() {
   };
 
   return (
+    
     <div>
       <form action="mailto:allanrnelias@gmail.com" className="form">
         <input
@@ -75,7 +75,7 @@ function Contact() {
           type="text"
           placeholder="message"
         />
-        <button type="submit" value="Send" style={inputStyle} onClick={handleFormSubmit}>
+        <button type="submit" style={inputStyle} onClick={handleFormSubmit}>
           Submit
         </button>
       </form>
