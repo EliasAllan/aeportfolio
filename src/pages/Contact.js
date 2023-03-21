@@ -63,7 +63,7 @@ function Contact() {
     
     <div>
 
-      <form action="mailto:allanrnelias@gmail.com" method="get" enctype="text/plain" className="form">
+      <form  method="get" enctype="text/plain" className="form">
       <h2 font-weight="bolder">Email me</h2>
         <input
           style={inputStyle}
@@ -73,14 +73,14 @@ function Contact() {
           type="text"
           placeholder="Name"
         />
-        <input
+        {/* <input
           style={inputStyle}
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="email"
-        />
+        /> */}
         <textarea
           style={inputStyle}
           value={message}
