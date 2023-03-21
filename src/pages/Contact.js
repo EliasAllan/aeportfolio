@@ -33,6 +33,8 @@ function Contact() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
+   
+
     // First we check to see if the email is not valid or if the name is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !name) {
       setErrorMessage("Email or username is invalid");
@@ -45,19 +47,31 @@ function Contact() {
     setUserName("");
     setMessage("");
     setEmail("");
+
+
   };
+
+  function sendMail()
+  {
+      var contactName = name;
+      var body = message
+      window.location.href = "mailto:allanrnelias@gmail.com?body="+body+"&subject="+contactName
+
+  }
 
   return (
     
     <div>
-      <form action="mailto:allanrnelias@gmail.com" className="form">
+
+      <form action="mailto:allanrnelias@gmail.com" method="get" enctype="text/plain" className="form">
+      <h2 font-weight="bolder">Email me</h2>
         <input
           style={inputStyle}
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
-          placeholder="name"
+          placeholder="Name"
         />
         <input
           style={inputStyle}
@@ -75,7 +89,7 @@ function Contact() {
           type="text"
           placeholder="message"
         />
-        <button type="submit" style={inputStyle} onClick={handleFormSubmit}>
+        <button type="submit"  value="Send" style={inputStyle} onClick={sendMail}>
           Submit
         </button>
       </form>
