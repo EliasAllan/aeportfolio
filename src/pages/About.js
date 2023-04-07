@@ -19,9 +19,8 @@ function About() {
         multitasking abilities and customer service before I decided to follow my passion for tech, but the knowledge I acquired bartending
         helps in every aspect of my life.
         It took some soul searching, but I decided the best way to to follow my passion for technology was to become a
-        web developer. I could satisfy my need for a challenge because of the complexity of it.
-        At the same time I could be creative, and create good relationships with people .
-        That was my favorite part of my past career.
+        web developer. I could satisfy my need for a challenge .
+        At the same time I could be creative, and create relationships with people .
         I joined the bootcamp program at the university of Pennsylvania not long after that, and after 6 months of learning, self-discovery, and lots of teamwork
         I was proudly certified as a Full Stack Web Developer. 
         I was humbled.
