@@ -18,6 +18,7 @@ function Projects() {
   const projects = [
     {
       title: "Study buddy",
+      summary: "A study card creator that lets you share your study cards with other users. Made using React, Node, Javascript and Heroku",
       link: "https://study-buddy-dream-team.herokuapp.com/",
       gitLink: "https://github.com/EliasAllan/study-buddy",
       img: (
@@ -34,6 +35,7 @@ function Projects() {
     },
     {
       title: "Pet Adoption",
+      summary: "A website where you can adopt pets. Made using React, Node, Javascript, MySql and express",
       link: "https://pet-adoption-store.herokuapp.com/",
       gitLink: "https://github.com/EliasAllan/pet-adoption-website",
       img: (
@@ -50,6 +52,7 @@ function Projects() {
     },
     {
       title: "Drink Findifier",
+      summary: "A website that finds mixed drinks by ingredient. Made using Javascript",
       link: "https://chocochip287.github.io/cocktail-recipes/",
       gitLink: "https://github.com/chocochip287/cocktail-recipes",
       img: (
@@ -66,6 +69,7 @@ function Projects() {
     },
     {
       title: "The Future Blog",
+      summary: "A blog style website where you can leave posts and comment on other users posts. Made using Handlebars, Node, Javascript, Sequelize and Heroku",
       link: "https://the-future-blog.herokuapp.com/",
       gitLink: "https://github.com/EliasAllan/the-future-blog",
 
@@ -83,6 +87,7 @@ function Projects() {
     },
     {
       title: "J.A.T.E",
+      summary: "Just another text editor, showcasing PWA functionality.. Made using Node, Javascript, and Heroku. Is a PWA",
       link: "https://extra-doodle.herokuapp.com/",
       gitLink: "https://github.com/EliasAllan/extra-doodle",
       img: (
@@ -99,6 +104,7 @@ function Projects() {
     },
     {
       title: "Horiseon Website",
+      summary: "Static Website styled with CSS",
       link: "https://eliasallan.github.io/code-refactor/",
       gitLink: "https://github.com/EliasAllan/code-refactor",
       img: (

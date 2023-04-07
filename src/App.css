@@ -107,6 +107,10 @@ a {
 
 }
 
+.proj-summary{
+  text-align: center;
+}
+
 #resume-link{
   display:flex;
   justify-content: center;
