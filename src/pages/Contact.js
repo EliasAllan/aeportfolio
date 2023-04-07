@@ -60,7 +60,7 @@ function Contact() {
   }
 
   return (
-    
+    <>
     <div>
 
       <form  method="get" enctype="text/plain" className="form">
@@ -91,6 +91,10 @@ function Contact() {
         </div>
       )}
     </div>
+    <div>
+    <h2 font-weight="bolder" className="form">Or Email me at : allanrnelias@gmail.com </h2>
+    </div>
+    </>
   );
 }
 
