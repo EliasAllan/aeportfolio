@@ -73,14 +73,6 @@ function Contact() {
           type="text"
           placeholder="Name"
         />
-        {/* <input
-          style={inputStyle}
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="email"
-        /> */}
         <textarea
           style={inputStyle}
           value={message}

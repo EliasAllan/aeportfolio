@@ -16,7 +16,9 @@ function About() {
         Born and raised in Brazil, I moved to the United States at 17 years of age 
         looking for better opportunities. I worked in the service industry for 9
         years and decided I wanted to expand my skillset , so I decided to become a 
-        web developer, following my passion for technology. Contact me to create something special.
+        web developer, following my passion for technology.  
+        I joined the bootcamp program at the university of Pennsylvania and was proudly certified as a Full Stack Web Developer.
+        Contact me to create something special.
       </h1>
     </div>
   );

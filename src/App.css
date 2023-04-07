@@ -60,12 +60,12 @@ a {
   -webkit-transition : border 300ms ease-out; 
  -moz-transition : border 300ms ease-out;
  -o-transition : border 300ms ease-out;
- border: 2px;
+ border: 1px;
  border-radius: 1rem
 }
 
 .project-screenshot:hover{
-  border : 5px solid rgb(0, 217, 255);   
+  border : 3px solid rgb(0, 217, 255);   
 }
 
 #footer-icons {
