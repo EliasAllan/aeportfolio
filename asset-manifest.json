@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hire-me/static/css/main.e935355a.css",
+    "main.css": "/hire-me/static/css/main.b76bf5fc.css",
     "main.js": "/hire-me/static/js/main.a896eeea.js",
     "static/js/787.f615d3f1.chunk.js": "/hire-me/static/js/787.f615d3f1.chunk.js",
     "static/media/Brazilpic.jpg": "/hire-me/static/media/Brazilpic.3ed12fc18f84d85973b4.jpg",
@@ -12,12 +12,12 @@
     "static/media/jate.png": "/hire-me/static/media/jate.cfc89a07810b70579575.png",
     "static/media/facebooklogo.png": "/hire-me/static/media/facebooklogo.672bc39dbdee2a4a7353.png",
     "index.html": "/hire-me/index.html",
-    "main.e935355a.css.map": "/hire-me/static/css/main.e935355a.css.map",
+    "main.b76bf5fc.css.map": "/hire-me/static/css/main.b76bf5fc.css.map",
     "main.a896eeea.js.map": "/hire-me/static/js/main.a896eeea.js.map",
     "787.f615d3f1.chunk.js.map": "/hire-me/static/js/787.f615d3f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e935355a.css",
+    "static/css/main.b76bf5fc.css",
     "static/js/main.a896eeea.js"
   ]
 }
