@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hire-me-allan-elias-portfolio/static/css/main.b76bf5fc.css",
-    "main.js": "/hire-me-allan-elias-portfolio/static/js/main.8909cfd1.js",
+    "main.js": "/hire-me-allan-elias-portfolio/static/js/main.4217d1e4.js",
     "static/js/787.f615d3f1.chunk.js": "/hire-me-allan-elias-portfolio/static/js/787.f615d3f1.chunk.js",
     "static/media/Brazilpic.jpg": "/hire-me-allan-elias-portfolio/static/media/Brazilpic.3ed12fc18f84d85973b4.jpg",
     "static/media/horiseon.png": "/hire-me-allan-elias-portfolio/static/media/horiseon.22fd75724c09fba82266.png",
@@ -13,11 +13,11 @@
     "static/media/facebooklogo.png": "/hire-me-allan-elias-portfolio/static/media/facebooklogo.672bc39dbdee2a4a7353.png",
     "index.html": "/hire-me-allan-elias-portfolio/index.html",
     "main.b76bf5fc.css.map": "/hire-me-allan-elias-portfolio/static/css/main.b76bf5fc.css.map",
-    "main.8909cfd1.js.map": "/hire-me-allan-elias-portfolio/static/js/main.8909cfd1.js.map",
+    "main.4217d1e4.js.map": "/hire-me-allan-elias-portfolio/static/js/main.4217d1e4.js.map",
     "787.f615d3f1.chunk.js.map": "/hire-me-allan-elias-portfolio/static/js/787.f615d3f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b76bf5fc.css",
-    "static/js/main.8909cfd1.js"
+    "static/js/main.4217d1e4.js"
   ]
 }
