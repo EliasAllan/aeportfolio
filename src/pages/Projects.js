@@ -18,7 +18,7 @@ function Projects() {
   const projects = [
     {
       title: "Study buddy",
-      summary: "A study card creator that lets you create study cards with input and share your study cards with other users. Made using React, Node, Javascript and Heroku",
+      summary: "A study card creator. It takes inputs by the user and it saves it as study cards.It also allows you to share your study cards with other users. Made using React, Node, Javascript and Heroku",
       link: "https://study-buddy-dream-team.herokuapp.com/",
       gitLink: "https://github.com/EliasAllan/study-buddy",
       img: (
@@ -69,7 +69,7 @@ function Projects() {
     },
     {
       title: "The Future Blog",
-      summary: "A blog style website where you can login and post tech related articles. Other users can comment on articles. Made using Handlebars, Node, Javascript, Sequelize and Heroku",
+      summary: "A blog style website where you can login and post tech related articles. Other users can comment on the articles posted. Made using Handlebars, Node, Javascript, Sequelize and Heroku",
       link: "https://the-future-blog.herokuapp.com/",
       gitLink: "https://github.com/EliasAllan/the-future-blog",
 
@@ -87,7 +87,7 @@ function Projects() {
     },
     {
       title: "J.A.T.E",
-      summary: "A text editor that allows you to save your notes. You can install it in your computer and access your notes offline if internet is not available (PWA). Made using Node, Javascript, and Heroku.",
+      summary: "A text editor that allows you to save your notes. You can install it in your computer and access your the app and your notes offline (PWA). Made using Node, Javascript, and Heroku.",
       link: "https://extra-doodle.herokuapp.com/", 
       gitLink: "https://github.com/EliasAllan/extra-doodle",
       img: (
@@ -104,7 +104,7 @@ function Projects() {
     },
     {
       title: "Horiseon Website",
-      summary: "Simple static marketing website. Optimized for user experience, screen readers and search engines. styled using CSS. ",
+      summary: "Simple static marketing website. Optimized for user experience, screen readers and search engines. Styled using CSS. ",
       link: "https://eliasallan.github.io/code-refactor/",
       gitLink: "https://github.com/EliasAllan/code-refactor",
       img: (
