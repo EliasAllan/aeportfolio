@@ -18,7 +18,7 @@ function Projects() {
   const projects = [
     {
       title: "Study buddy",
-      summary: "A study card creator that lets you share your study cards with other users. Made using React, Node, Javascript and Heroku",
+      summary: "A study card creator that lets you create study cards with input and share your study cards with other users. Made using React, Node, Javascript and Heroku",
       link: "https://study-buddy-dream-team.herokuapp.com/",
       gitLink: "https://github.com/EliasAllan/study-buddy",
       img: (
@@ -35,7 +35,7 @@ function Projects() {
     },
     {
       title: "Pet Adoption",
-      summary: "A website where you can adopt pets. Made using React, Node, Javascript, MySql and express",
+      summary: "A website where you can view a database of pets available for adoption. You can choose pets from a list and add them to an adoption basket. Made using React, Node, Javascript, MySql and express",
       link: "https://pet-adoption-store.herokuapp.com/",
       gitLink: "https://github.com/EliasAllan/pet-adoption-website",
       img: (
@@ -52,7 +52,7 @@ function Projects() {
     },
     {
       title: "Drink Findifier",
-      summary: "A website that finds mixed drinks by ingredient. Made using Javascript",
+      summary: "A website that finds instructions on how to make classic cocktails. You enter the name of an ingredient you have available and the app will find drinks that contain that ingredient. You can also see instructions on how to make those drinks. Made using Javascript and a cocktail API",
       link: "https://chocochip287.github.io/cocktail-recipes/",
       gitLink: "https://github.com/chocochip287/cocktail-recipes",
       img: (
@@ -69,7 +69,7 @@ function Projects() {
     },
     {
       title: "The Future Blog",
-      summary: "A blog style website where you can leave posts and comment on other users posts. Made using Handlebars, Node, Javascript, Sequelize and Heroku",
+      summary: "A blog style website where you can login and post tech related articles. Other users can comment on articles. Made using Handlebars, Node, Javascript, Sequelize and Heroku",
       link: "https://the-future-blog.herokuapp.com/",
       gitLink: "https://github.com/EliasAllan/the-future-blog",
 
@@ -87,8 +87,8 @@ function Projects() {
     },
     {
       title: "J.A.T.E",
-      summary: "Just another text editor, showcasing PWA functionality.. Made using Node, Javascript, and Heroku. Is a PWA",
-      link: "https://extra-doodle.herokuapp.com/",
+      summary: "A text editor that allows you to save your notes. You can install it in your computer and access your notes offline if internet is not available (PWA). Made using Node, Javascript, and Heroku.",
+      link: "https://extra-doodle.herokuapp.com/", 
       gitLink: "https://github.com/EliasAllan/extra-doodle",
       img: (
         <Link to="https://extra-doodle.herokuapp.com/" href="true">
@@ -104,7 +104,7 @@ function Projects() {
     },
     {
       title: "Horiseon Website",
-      summary: "Static Website styled with CSS",
+      summary: "Simple static marketing website. Optimized for user experience, screen readers and search engines. styled using CSS. ",
       link: "https://eliasallan.github.io/code-refactor/",
       gitLink: "https://github.com/EliasAllan/code-refactor",
       img: (
