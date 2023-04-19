@@ -53,4 +53,4 @@ E-mail me at: allanrnelias@gmail.com
 
 ## Link to deployed application
 
-https://eliasallan.github.io/hire-me/
+https://eliasallan.github.io/hire-me-allan-elias-portfolio/
