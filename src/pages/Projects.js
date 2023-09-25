@@ -22,7 +22,7 @@ function Projects() {
       link: "https://study-buddy-dream-team.herokuapp.com/",
       gitLink: "https://github.com/EliasAllan/study-buddy",
       img: (
-        <Link to="https://study-buddy-dream-team.herokuapp.com/" href="true">
+        <Link to="https://study-buddy-dream-team.herokuapp.com/" href="true" target="_blank">
           <img
             className="project-screenshot"
             src={studyBuddySc}
@@ -39,7 +39,7 @@ function Projects() {
       link: "https://pet-adoption-store.herokuapp.com/",
       gitLink: "https://github.com/EliasAllan/pet-adoption-website",
       img: (
-        <Link to="https://pet-adoption-store.herokuapp.com/" href="true">
+        <Link to="https://pet-adoption-store.herokuapp.com/" href="true" target="_blank">
           <img
             className="project-screenshot"
             src={petAdoptionSc}
@@ -56,7 +56,7 @@ function Projects() {
       link: "https://chocochip287.github.io/cocktail-recipes/",
       gitLink: "https://github.com/chocochip287/cocktail-recipes",
       img: (
-        <Link to="https://chocochip287.github.io/cocktail-recipes/" href="true">
+        <Link to="https://chocochip287.github.io/cocktail-recipes/" href="true" target="_blank">
           <img
             className="project-screenshot"
             src={drinkFindifierSc}
@@ -74,7 +74,7 @@ function Projects() {
       gitLink: "https://github.com/EliasAllan/the-future-blog",
 
       img: (
-        <Link to="https://the-future-blog.herokuapp.com/" href="true">
+        <Link to="https://the-future-blog.herokuapp.com/" href="true" target="_blank">
           <img
             className="project-screenshot"
             src={futureblogSc}
@@ -91,7 +91,7 @@ function Projects() {
       link: "https://extra-doodle.herokuapp.com/", 
       gitLink: "https://github.com/EliasAllan/extra-doodle",
       img: (
-        <Link to="https://extra-doodle.herokuapp.com/" href="true">
+        <Link to="https://extra-doodle.herokuapp.com/" href="true" target="_blank">
           <img
             className="project-screenshot"
             src={jateSc}
@@ -108,7 +108,7 @@ function Projects() {
       link: "https://eliasallan.github.io/code-refactor/",
       gitLink: "https://github.com/EliasAllan/code-refactor",
       img: (
-        <Link to="https://eliasallan.github.io/code-refactor/" href="true">
+        <Link to="https://eliasallan.github.io/code-refactor/" href="true" target="_blank">
           <img
             className="project-screenshot"
             src={horiseonSc}
