@@ -1,8 +1,8 @@
 {
-  "name": "aeportfolio",
+  "name": "hire-me",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eliasallan.github.io/aeportfolio/",
+  "homepage": "https://eliasallan.github.io/hire-me-allan-elias-portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
