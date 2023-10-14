@@ -85,23 +85,23 @@ function Projects() {
         </Link>
       ),
     },
-    {
-      title: "J.A.T.E",
-      summary: "A text editor that allows you to save your notes. You can install it in your computer and access your the app and your notes offline (PWA). Made using Node, Javascript, and Heroku.",
-      link: "https://extra-doodle.herokuapp.com/", 
-      gitLink: "https://github.com/EliasAllan/extra-doodle",
-      img: (
-        <Link to="https://extra-doodle.herokuapp.com/" href="true" target="_blank">
-          <img
-            className="project-screenshot"
-            src={jateSc}
-            alt="jate-screenshot"
-            width="100%"
-            border="20px"
-          />
-        </Link>
-      ),
-    },
+    // {
+    //   title: "J.A.T.E",
+    //   summary: "A text editor that allows you to save your notes. You can install it in your computer and access your the app and your notes offline (PWA). Made using Node, Javascript, and Heroku.",
+    //   link: "https://extra-doodle.herokuapp.com/", 
+    //   gitLink: "https://github.com/EliasAllan/extra-doodle",
+    //   img: (
+    //     <Link to="https://extra-doodle.herokuapp.com/" href="true" target="_blank">
+    //       <img
+    //         className="project-screenshot"
+    //         src={jateSc}
+    //         alt="jate-screenshot"
+    //         width="100%"
+    //         border="20px"
+    //       />
+    //     </Link>
+    //   ),
+    // },
     {
       title: "Horiseon Website",
       summary: "Simple static marketing website. Optimized for user experience, screen readers and search engines. Styled using CSS. ",
