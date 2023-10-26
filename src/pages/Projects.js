@@ -52,7 +52,7 @@ function Projects() {
     },
     {
       title: "Drink Findifier",
-      summary: "A website that finds instructions on how to make classic cocktails. You enter the name of an ingredient you have available and the app will find drinks that contain that ingredient. You can also see instructions on how to make those drinks. Made using Javascript and a cocktail API",
+      summary: "This website helps you make classic cocktails easily. Just enter an ingredient you have and find recipes with instructions. Made using Javascript and a cocktail API, it's simple and easy to use.",
       link: "https://chocochip287.github.io/cocktail-recipes/",
       gitLink: "https://github.com/chocochip287/cocktail-recipes",
       img: (

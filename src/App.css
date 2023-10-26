@@ -90,6 +90,8 @@ a {
 
 }
 
+
+
 .selfie{
     border-radius: 25% 10%;
 }
@@ -118,6 +120,12 @@ a {
   font-size: 30px;
   font-weight: bolder;
 }
+
+.divider {
+  grid-column: span 2;
+  height: 2px;
+  background-color: black;
+ }
 
 #proj-title {
   display: block;
@@ -148,7 +156,7 @@ a {
   top: -20px
 }
 
-@media screen and (max-width: 1590px) {
+@media screen and (max-width: 1199px) {
   #navbar {
     margin-top: 55px;
     flex-direction: column;
@@ -159,6 +167,15 @@ a {
     margin: 50px 0px;
     font-family: 'Rubik', sans-serif;
   }
+
+  .divider {
+    grid-column: span 2;
+    height: 0px;
+    background-color: black;
+   }
+
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -172,4 +189,6 @@ a {
     margin: 50px 0px;
     font-family: 'Rubik', sans-serif;
   }
+
+  
 }
