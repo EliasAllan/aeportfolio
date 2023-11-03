@@ -51,7 +51,7 @@ function Projects() {
       ),
     },
     {
-      title: "Drink Findifier",
+      title: "The Cocktail Findifier",
       summary: "This website helps you make classic cocktails easily. Just enter an ingredient you have and find recipes with instructions. Made using Javascript and a cocktail API, it's simple and easy to use.",
       link: "https://chocochip287.github.io/cocktail-recipes/",
       gitLink: "https://github.com/chocochip287/cocktail-recipes",
