@@ -29,7 +29,7 @@ function Resume() {
     
     </div>
     <div id="resume-link">
-    <Link to="https://drive.google.com/file/d/1El_KM_gmLpdiGV-25RoTIIcoGS9hiasJ/view?usp=sharing" href="true">Click here to see and/or download my resume</Link>
+    <Link to="https://docs.google.com/document/d/15bZye9swVtnXBVyYmg5PEF1KWAFrtaFYOmqJm7910Gk/edit?usp=sharing" href="true">Click here to see and/or download my resume</Link>
     </div> 
     </>
   );
