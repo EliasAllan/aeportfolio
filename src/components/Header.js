@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
-import { slide as Menu } from 'react-burger-menu'
-
+import { bubble as Menu } from 'react-burger-menu'
+import { NavLink } from "react-router-dom";
 // class Example extends React.Component {
 //   showSettings (event) {
 //     event.preventDefault();
@@ -22,14 +22,47 @@ import { slide as Menu } from 'react-burger-menu'
 //   }
 // }
 function Header() {
+  const activeClassName = {
+    background: "aqua",
+    borderRadius: "5px"
+    
+  }
   return (
+    
     <>
  
-       <Link to="/" id="myname"><span><Menu>
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">About</a>
-        <a id="contact" className="menu-item" href="/contact">Contact</a>
-      </Menu></span>Allan Elias</Link>
+       <Menu>
+       <NavLink
+        to="/"
+        style={({ isActive }) => (isActive ? activeClassName : undefined)}
+      >
+        About me
+      </NavLink>
+
+      <NavLink 
+      className="navitem"
+      to="/projects"
+      style={({ isActive }) => (isActive ? activeClassName : undefined)}
+      >Portfolio
+      </NavLink>
+
+      <NavLink 
+      className="navitem"
+      to="/contact"
+      style={({ isActive }) => (isActive ? activeClassName : undefined)}
+      >Contact me
+      </NavLink>
+
+      <NavLink 
+      className="navitem"
+      to="/resume"
+      style={({ isActive }) => (isActive ? activeClassName : undefined)}
+      >Resume
+      </NavLink>
+
+      </Menu>
+      
+      <Link to="/" id="myname"><span></span>Allan Elias</Link>
     {/* <Navbar />  */}
     </>
   );
