@@ -62,26 +62,39 @@ function Contact() {
 
 
   return (
-    <div id="about-description">
-      {/* <img className="selfie" src={profileSc} alt="allan" width="30%" /> */}
+    <>
+    
 
-      <h1 id="about-text">
-        Born and raised in Brazil, I moved to the United States at 17 years of
-        age looking for better opportunities. I worked in the service industry
-        for 9 years. I honed my soft skills , multitasking abilities and
-        customer service before I decided to follow my passion for tech, but the
-        knowledge I acquired bartending helps in every aspect of my life. It
-        took some soul searching, but I decided the best way to to follow my
-        passion for technology was to become a web developer. I could satisfy my
-        need for a challenge . At the same time I could be creative, and create
-        relationships with people . I joined the bootcamp program at the
-        university of Pennsylvania not long after that, and after 6 months of
-        learning, self-discovery, and lots of teamwork I was proudly certified
-        as a Full Stack Web Developer. I was humbled. That entire time, I never
-        had a doubt in my mind, that's where I was supposed to be. Contact me to
-        create something special.
-      </h1>
-    </div>
+      <form  method="get" enctype="text/plain" className="form">
+      <h2 font-weight="bolder">Email me</h2>
+        <input
+      
+          value={name}
+          name="name"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Name"
+        />
+        <textarea
+        
+          value={message}
+          name="message"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="message"
+        />
+        <button type="submit"  value="Send" onClick={sendMail}>
+          Submit
+        </button>
+      </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
+    
+  
+    </>
   );
 }
 
@@ -144,43 +157,43 @@ export default Contact;
 
 //   }
 
-//   return (
-//     <>
-//     <div>
+  // return (
+  //   <>
+  //   <div>
 
-//       <form  method="get" enctype="text/plain" className="form">
-//       <h2 font-weight="bolder">Email me</h2>
-//         <input
+  //     <form  method="get" enctype="text/plain" className="form">
+  //     <h2 font-weight="bolder">Email me</h2>
+  //       <input
       
-//           value={name}
-//           name="name"
-//           onChange={handleInputChange}
-//           type="text"
-//           placeholder="Name"
-//         />
-//         <textarea
+  //         value={name}
+  //         name="name"
+  //         onChange={handleInputChange}
+  //         type="text"
+  //         placeholder="Name"
+  //       />
+  //       <textarea
         
-//           value={message}
-//           name="message"
-//           onChange={handleInputChange}
-//           type="text"
-//           placeholder="message"
-//         />
-//         <button type="submit"  value="Send" onClick={sendMail}>
-//           Submit
-//         </button>
-//       </form>
-//       {errorMessage && (
-//         <div>
-//           <p className="error-text">{errorMessage}</p>
-//         </div>
-//       )}
-//     </div>
-//     <div>
-//     <h2 font-weight="bolder" className="form">Or Email me at : allanrnelias@gmail.com </h2>
-//     </div>
-//     </>
-//   );
+  //         value={message}
+  //         name="message"
+  //         onChange={handleInputChange}
+  //         type="text"
+  //         placeholder="message"
+  //       />
+  //       <button type="submit"  value="Send" onClick={sendMail}>
+  //         Submit
+  //       </button>
+  //     </form>
+  //     {errorMessage && (
+  //       <div>
+  //         <p className="error-text">{errorMessage}</p>
+  //       </div>
+  //     )}
+  //   </div>
+  //   <div>
+  //   <h2 font-weight="bolder" className="form">Or Email me at : allanrnelias@gmail.com </h2>
+  //   </div>
+  //   </>
+  // );
 // }
 
 // export default Contact;
