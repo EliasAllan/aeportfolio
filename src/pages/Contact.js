@@ -4,9 +4,9 @@ import React, { useState } from "react";
 import { checkPassword, validateEmail } from "../utils/helpers";
 
 function Contact() {
-    const inputStyle = {
+  const inputStyle = {
     backgroundColor: "white",
-    }
+  };
 
   const [email, setEmail] = useState("");
   const [name, setUserName] = useState("");
@@ -33,8 +33,6 @@ function Contact() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
-   
-
     // First we check to see if the email is not valid or if the name is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !name) {
       setErrorMessage("Email or username is invalid");
@@ -47,28 +45,21 @@ function Contact() {
     setUserName("");
     setMessage("");
     setEmail("");
-
-
   };
 
-  function sendMail()
-  {
-      var contactName = name;
-      var body = message
-      window.location.href = "mailto:allanrnelias@gmail.com?body="+body+"&subject="+contactName
-
+  function sendMail() {
+    var contactName = name;
+    var body = message;
+    window.location.href =
+      "mailto:allanrnelias@gmail.com?body=" + body + "&subject=" + contactName;
   }
-
-
 
   return (
     <>
-    
-
-      <form  method="get" enctype="text/plain" className="form">
-      <h2 font-weight="bolder">Email me</h2>
+      <form method="get" enctype="text/plain" className="form">
+        <h2 font-weight="bolder">Email me</h2>
         <input
-      
+          style={inputStyle}
           value={name}
           name="name"
           onChange={handleInputChange}
@@ -76,14 +67,19 @@ function Contact() {
           placeholder="Name"
         />
         <textarea
-        
+          style={inputStyle}
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="message"
         />
-        <button type="submit"  value="Send" onClick={sendMail}>
+        <button
+          style={inputStyle}
+          type="submit"
+          value="Send"
+          onClick={sendMail}
+        >
           Submit
         </button>
       </form>
@@ -92,14 +88,11 @@ function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
-    
-  
     </>
   );
 }
 
 export default Contact;
-
 
 // function Contact() {
 //   // const inputStyle = {
@@ -131,8 +124,6 @@ export default Contact;
 //     // Preventing the default behavior of the form submit (which is to refresh the page)
 //     e.preventDefault();
 
-   
-
 //     // First we check to see if the email is not valid or if the name is empty. If so we set an error message to be displayed on the page.
 //     if (!validateEmail(email) || !name) {
 //       setErrorMessage("Email or username is invalid");
@@ -146,7 +137,6 @@ export default Contact;
 //     setMessage("");
 //     setEmail("");
 
-
 //   };
 
 //   function sendMail()
@@ -157,43 +147,43 @@ export default Contact;
 
 //   }
 
-  // return (
-  //   <>
-  //   <div>
+// return (
+//   <>
+//   <div>
 
-  //     <form  method="get" enctype="text/plain" className="form">
-  //     <h2 font-weight="bolder">Email me</h2>
-  //       <input
-      
-  //         value={name}
-  //         name="name"
-  //         onChange={handleInputChange}
-  //         type="text"
-  //         placeholder="Name"
-  //       />
-  //       <textarea
-        
-  //         value={message}
-  //         name="message"
-  //         onChange={handleInputChange}
-  //         type="text"
-  //         placeholder="message"
-  //       />
-  //       <button type="submit"  value="Send" onClick={sendMail}>
-  //         Submit
-  //       </button>
-  //     </form>
-  //     {errorMessage && (
-  //       <div>
-  //         <p className="error-text">{errorMessage}</p>
-  //       </div>
-  //     )}
-  //   </div>
-  //   <div>
-  //   <h2 font-weight="bolder" className="form">Or Email me at : allanrnelias@gmail.com </h2>
-  //   </div>
-  //   </>
-  // );
+//     <form  method="get" enctype="text/plain" className="form">
+//     <h2 font-weight="bolder">Email me</h2>
+//       <input
+
+//         value={name}
+//         name="name"
+//         onChange={handleInputChange}
+//         type="text"
+//         placeholder="Name"
+//       />
+//       <textarea
+
+//         value={message}
+//         name="message"
+//         onChange={handleInputChange}
+//         type="text"
+//         placeholder="message"
+//       />
+//       <button type="submit"  value="Send" onClick={sendMail}>
+//         Submit
+//       </button>
+//     </form>
+//     {errorMessage && (
+//       <div>
+//         <p className="error-text">{errorMessage}</p>
+//       </div>
+//     )}
+//   </div>
+//   <div>
+//   <h2 font-weight="bolder" className="form">Or Email me at : allanrnelias@gmail.com </h2>
+//   </div>
+//   </>
+// );
 // }
 
 // export default Contact;

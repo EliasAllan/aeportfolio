@@ -9,7 +9,7 @@ import Header from "./components/Header";
 import Resume from "./pages/Resume";
 import { push as Menu } from "react-burger-menu";
 import BurgerMenu from "./components/BurgerMenu";
-
+import { Link } from "react-router-dom";
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
           <Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"}>
             <BurgerMenu />
           </Menu>
+          <Link to="/" id="myname"><span></span>Allan Elias</Link>
           <main id="page-wrap">
             <Routes>
               <Route path="/">
