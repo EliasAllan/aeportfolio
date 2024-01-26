@@ -18,11 +18,16 @@ function Projects() {
   const projects = [
     {
       title: "Study buddy",
-      summary: "A study card creator. It takes inputs by the user and it saves it as study cards.It also allows you to share your study cards with other users. Made using React, Node, Javascript and Heroku",
+      summary:
+        "A study card creator. It takes inputs by the user and it saves it as study cards.It also allows you to share your study cards with other users. Made using React, Node, Javascript and Heroku",
       link: "https://study-buddy-dream-team.herokuapp.com/",
       gitLink: "https://github.com/EliasAllan/study-buddy",
       img: (
-        <Link to="https://study-buddy-dream-team.herokuapp.com/" href="true" target="_blank">
+        <Link
+          to="https://study-buddy-dream-team.herokuapp.com/"
+          href="true"
+          target="_blank"
+        >
           <img
             className="project-screenshot"
             src={studyBuddySc}
@@ -35,11 +40,16 @@ function Projects() {
     },
     {
       title: "Pet Adoption",
-      summary: "A website where you can view a database of pets available for adoption. You can choose pets from a list and add them to an adoption basket. Made using React, Node, Javascript, MySql and express",
+      summary:
+        "A website where you can view a database of pets available for adoption. You can choose pets from a list and add them to an adoption basket. Made using React, Node, Javascript, MySql and express",
       link: "https://pet-adoption-store.herokuapp.com/",
       gitLink: "https://github.com/EliasAllan/pet-adoption-website",
       img: (
-        <Link to="https://pet-adoption-store.herokuapp.com/" href="true" target="_blank">
+        <Link
+          to="https://pet-adoption-store.herokuapp.com/"
+          href="true"
+          target="_blank"
+        >
           <img
             className="project-screenshot"
             src={petAdoptionSc}
@@ -52,11 +62,16 @@ function Projects() {
     },
     {
       title: "The Cocktail Findifier",
-      summary: "This website helps you make classic cocktails easily. Just enter an ingredient you have and find recipes with instructions. Made using Javascript and a cocktail API, it's simple and easy to use.",
+      summary:
+        "This website helps you make classic cocktails easily. Just enter an ingredient you have and find recipes with instructions. Made using Javascript and a cocktail API, it's simple and easy to use.",
       link: "https://chocochip287.github.io/cocktail-recipes/",
       gitLink: "https://github.com/chocochip287/cocktail-recipes",
       img: (
-        <Link to="https://chocochip287.github.io/cocktail-recipes/" href="true" target="_blank">
+        <Link
+          to="https://chocochip287.github.io/cocktail-recipes/"
+          href="true"
+          target="_blank"
+        >
           <img
             className="project-screenshot"
             src={drinkFindifierSc}
@@ -69,12 +84,17 @@ function Projects() {
     },
     {
       title: "The Future Blog",
-      summary: "A blog style website where you can login and post tech related articles. Other users can comment on the articles posted. Made using Handlebars, Node, Javascript, Sequelize and Heroku",
+      summary:
+        "A blog style website where you can login and post tech related articles. Other users can comment on the articles posted. Made using Handlebars, Node, Javascript, Sequelize and Heroku",
       link: "https://the-future-blog.herokuapp.com/",
       gitLink: "https://github.com/EliasAllan/the-future-blog",
 
       img: (
-        <Link to="https://the-future-blog.herokuapp.com/" href="true" target="_blank">
+        <Link
+          to="https://the-future-blog.herokuapp.com/"
+          href="true"
+          target="_blank"
+        >
           <img
             className="project-screenshot"
             src={futureblogSc}
@@ -88,7 +108,7 @@ function Projects() {
     // {
     //   title: "J.A.T.E",
     //   summary: "A text editor that allows you to save your notes. You can install it in your computer and access your the app and your notes offline (PWA). Made using Node, Javascript, and Heroku.",
-    //   link: "https://extra-doodle.herokuapp.com/", 
+    //   link: "https://extra-doodle.herokuapp.com/",
     //   gitLink: "https://github.com/EliasAllan/extra-doodle",
     //   img: (
     //     <Link to="https://extra-doodle.herokuapp.com/" href="true" target="_blank">
@@ -104,11 +124,16 @@ function Projects() {
     // },
     {
       title: "Horiseon Website",
-      summary: "Simple static marketing website. Optimized for user experience, screen readers and search engines. Styled using CSS. ",
+      summary:
+        "Simple static marketing website. Optimized for user experience, screen readers and search engines. Styled using CSS. ",
       link: "https://eliasallan.github.io/code-refactor/",
       gitLink: "https://github.com/EliasAllan/code-refactor",
       img: (
-        <Link to="https://eliasallan.github.io/code-refactor/" href="true" target="_blank">
+        <Link
+          to="https://eliasallan.github.io/code-refactor/"
+          href="true"
+          target="_blank"
+        >
           <img
             className="project-screenshot"
             src={horiseonSc}
@@ -133,10 +158,15 @@ function Projects() {
           <Fragment>
             {matches.small && (
               <>
-                <swiper-container slides-per-view="1" speed="500" loop="true" pagination="true" >
+                <swiper-container
+                  slides-per-view="1"
+                  speed="500"
+                  loop="true"
+                  pagination="true"
+                >
                   {projects.map((project, index) => (
                     <>
-                      <swiper-slide  >
+                      <swiper-slide>
                         <ProjectCard key={index} props={project} />
                       </swiper-slide>
                     </>
@@ -146,7 +176,12 @@ function Projects() {
             )}
             {matches.medium && (
               <>
-                <swiper-container slides-per-view="2" speed="500" loop="true" pagination="true">
+                <swiper-container
+                  slides-per-view="2"
+                  speed="500"
+                  loop="true"
+                  pagination="true"
+                >
                   {projects.map((project, index) => (
                     <>
                       <swiper-slide>

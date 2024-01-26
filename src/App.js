@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import Header from "./components/Header";
 import Resume from "./pages/Resume";
 import { push as Menu } from "react-burger-menu";
 import BurgerMenu from "./components/BurgerMenu";
@@ -18,8 +17,8 @@ function App() {
           <Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"}>
             <BurgerMenu />
           </Menu>
-          <Link to="/" id="myname"><span></span>Allan Elias</Link>
           <main id="page-wrap">
+          
             <Routes>
               <Route path="/">
                 <Route index element={<About />} />
