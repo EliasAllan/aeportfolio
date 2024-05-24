@@ -5,7 +5,6 @@ import drinkFindifierSc from "../assets/drinkrenderscreen.png";
 import futureblogSc from "../assets/homepage.png";
 import horiseonSc from "../assets/horiseon.png";
 import studyBuddySc from "../assets/study-buddy.png";
-import jateSc from "../assets/jate.png";
 import { Link } from "react-router-dom";
 import Media from "react-media";
 
@@ -177,7 +176,7 @@ function Projects() {
             {matches.medium && (
               <>
                 <swiper-container
-                  slides-per-view="2"
+                  slides-per-view="1"
                   speed="500"
                   loop="true"
                   pagination="true"
@@ -193,11 +192,22 @@ function Projects() {
               </>
             )}
             {matches.large && (
-              <div className="container">
+              <>
+              <swiper-container
+                slides-per-view="1"
+                speed="500"
+                loop="true"
+                pagination="true"
+              >
                 {projects.map((project, index) => (
-                  <ProjectCard key={index} props={project} />
+                  <>
+                    <swiper-slide>
+                      <ProjectCard key={index} props={project} />
+                    </swiper-slide>
+                  </>
                 ))}
-              </div>
+              </swiper-container>
+            </>
             )}
           </Fragment>
         )}

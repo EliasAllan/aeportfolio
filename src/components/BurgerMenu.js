@@ -1,7 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
-import { Link } from "react-router-dom";
-import { pushRotate as Menu } from 'react-burger-menu'
 import { NavLink } from "react-router-dom";
 
 class BurgerMenu extends React.Component {
@@ -36,6 +33,13 @@ class BurgerMenu extends React.Component {
       className="navitem"
       to="/resume"
       >Resume
+      </NavLink>
+      
+      <NavLink 
+      id="secret"
+      className="navitem"
+      to="/secret"
+      >Secret
       </NavLink>
   </>
     );

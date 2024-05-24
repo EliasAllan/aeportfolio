@@ -6,9 +6,9 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
+import Secret from "./pages/Secret";
 import { push as Menu } from "react-burger-menu";
 import BurgerMenu from "./components/BurgerMenu";
-import { Link } from "react-router-dom";
 function App() {
   return (
     <>
@@ -25,6 +25,7 @@ function App() {
                 <Route path="projects" element={<Projects />} />
                 <Route path="contact" element={<Contact />} />
                 <Route path="resume" element={<Resume />} />
+                <Route path="secret" element={<Secret />} />
               </Route>
             </Routes>
             <Footer />

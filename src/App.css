@@ -1,3 +1,4 @@
+
 * {
   background-color: #b0c6f1;
 }
@@ -5,6 +6,8 @@
 .App {
   text-align: center;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 
 .App-logo {
   height: 40vmin;
@@ -142,6 +145,8 @@ a {
 
 }
 
+
+
 .form {
   display: flex;
   flex-direction: column;
@@ -260,3 +265,4 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
+

@@ -38,6 +38,13 @@ function Navbar() {
       style={({ isActive }) => (isActive ? activeClassName : undefined)}
       >Resume
       </NavLink>
+      
+      <NavLink 
+      className="navitem"
+      to="/resume"
+      style={({ isActive }) => (isActive ? activeClassName : undefined)}
+      >Resume
+      </NavLink>
 
     </nav>
   );
