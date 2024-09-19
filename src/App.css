@@ -95,11 +95,11 @@ a {
 
 
 .selfie{
-    border-radius: 25% 10%;
+    border-radius: 5% ;
 }
 
 #about-text {
-  width: 85%;
+  /* width: 85%; */
   margin: 75px 0px;
   font-family: 'Rubik', sans-serif;
   text-align: center;

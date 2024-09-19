@@ -4,11 +4,12 @@ import { Link } from "react-router-dom";
 
 function About() {
   return (
-    
+    <>
     <div id="about-description">
-      <Link to="/" id="myname"><span></span>Allan Elias</Link>
+      <Link to="/" id="myname"><span></span>Hi! I'm Allan Elias</Link>
+      
       <img className="selfie" src={profileSc} alt="allan" width="30%" />
-
+    </div>
       <h4 id="about-text">
         Born and raised in Brazil, I moved to the United States at 17 years of
         age looking for better opportunities. I worked in the service industry
@@ -25,7 +26,7 @@ function About() {
         had a doubt in my mind, that's where I was supposed to be. Contact me to
         create something special.
       </h4>
-    </div>
+      </>
   );
 }
 
