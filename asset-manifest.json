@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aeportfolio/static/css/main.cf2fd327.css",
-    "main.js": "/aeportfolio/static/js/main.b36dfea0.js",
+    "main.css": "/aeportfolio/static/css/main.5eba0a28.css",
+    "main.js": "/aeportfolio/static/js/main.11b2a2ac.js",
     "static/js/787.07acf2a3.chunk.js": "/aeportfolio/static/js/787.07acf2a3.chunk.js",
     "static/media/Brazilpic.jpg": "/aeportfolio/static/media/Brazilpic.3ed12fc18f84d85973b4.jpg",
     "static/media/horiseon.png": "/aeportfolio/static/media/horiseon.22fd75724c09fba82266.png",
@@ -9,15 +9,14 @@
     "static/media/drinkrenderscreen.png": "/aeportfolio/static/media/drinkrenderscreen.4d10fe68e41c1348f5be.png",
     "static/media/study-buddy.png": "/aeportfolio/static/media/study-buddy.01e66f4a3c6a0971b7cb.png",
     "static/media/homepage.png": "/aeportfolio/static/media/homepage.ed2cbb5eda7b6fb7ec47.png",
-    "static/media/jate.png": "/aeportfolio/static/media/jate.cfc89a07810b70579575.png",
     "static/media/facebooklogo.png": "/aeportfolio/static/media/facebooklogo.672bc39dbdee2a4a7353.png",
     "index.html": "/aeportfolio/index.html",
-    "main.cf2fd327.css.map": "/aeportfolio/static/css/main.cf2fd327.css.map",
-    "main.b36dfea0.js.map": "/aeportfolio/static/js/main.b36dfea0.js.map",
+    "main.5eba0a28.css.map": "/aeportfolio/static/css/main.5eba0a28.css.map",
+    "main.11b2a2ac.js.map": "/aeportfolio/static/js/main.11b2a2ac.js.map",
     "787.07acf2a3.chunk.js.map": "/aeportfolio/static/js/787.07acf2a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf2fd327.css",
-    "static/js/main.b36dfea0.js"
+    "static/css/main.5eba0a28.css",
+    "static/js/main.11b2a2ac.js"
   ]
 }
