@@ -7,11 +7,26 @@ import horiseonSc from "../assets/horiseon.png";
 import studyBuddySc from "../assets/study-buddy.png";
 import { Link } from "react-router-dom";
 import Media from "react-media";
-
+import {Navigation, Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide} from 'swiper/react';
 // import function to register Swiper custom elements
-import { register } from "swiper/element/bundle";
-// register Swiper custom elements
-register();
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+// import { register } from "swiper/element/bundle";
+// // register Swiper custom elements
+// register();
+
+// import Swiper JS
+// import Swiper from 'swiper/bundle';
+// // import Swiper styles
+// import 'swiper/css';
+
+// const swiper = new Swiper('.swiper', {
+//   // configure Swiper to use modules
+//   modules: [Navigation, Pagination],
+
+// });
 
 function Projects() {
   const projects = [
@@ -145,74 +160,93 @@ function Projects() {
     },
   ];
   return (
-    <div>
-      <Media
-        queries={{
-          small: "(max-width: 599px)",
-          medium: "(min-width: 600px) and (max-width: 1199px)",
-          large: "(min-width: 1200px)",
-        }}
-      >
-        {(matches) => (
-          <Fragment>
-            {matches.small && (
-              <>
-                <swiper-container
-                  slides-per-view="1"
-                  speed="500"
-                  loop="true"
-                  pagination="true"
-                >
+    <>
+      <div>
+        <Media
+          queries={{
+            small: "(max-width: 599px)",
+            medium: "(min-width: 600px) and (max-width: 1199px)",
+            large: "(min-width: 1200px)",
+          }}
+        >
+          {(matches) => (
+            <Fragment>
+              {matches.small && (
+                <>
                   {projects.map((project, index) => (
                     <>
-                      <swiper-slide>
-                        <ProjectCard key={index} props={project} />
-                      </swiper-slide>
+                      <Swiper
+              
+              
+              
+                     disabledClass='swiper-button-disabled'
+                        // slides-per-view="1"
+                        // speed="500"
+                        // loop="true"
+                        // pagination="true"
+                      >
+                        <SwiperSlide>
+                          <ProjectCard key={index} props={project} />
+                        </SwiperSlide>
+                      </Swiper>
                     </>
                   ))}
-                </swiper-container>
-              </>
-            )}
-            {matches.medium && (
-              <>
-                <swiper-container
-                  slides-per-view="1"
-                  speed="500"
-                  loop="true"
-                  pagination="true"
-                >
-                  {projects.map((project, index) => (
-                    <>
-                      <swiper-slide>
-                        <ProjectCard key={index} props={project} />
-                      </swiper-slide>
-                    </>
-                  ))}
-                </swiper-container>
-              </>
-            )}
-            {matches.large && (
-              <>
-              <swiper-container
-                slides-per-view="1"
-                speed="500"
-                loop="true"
-                pagination="true"
-              >
-                {projects.map((project, index) => (
-                  <>
-                    <swiper-slide>
-                      <ProjectCard key={index} props={project} />
-                    </swiper-slide>
-                  </>
-                ))}
-              </swiper-container>
-            </>
-            )}
-          </Fragment>
-        )}
-      </Media>
-    </div>
+                </>
+              )}
+              {matches.medium && (
+                <>
+                  <Swiper
+                  modules={[Navigation, Pagination]}
+                  navigation
+                  pagination={{ clickable: true }}
+                    // slides-per-view="1"
+                    // speed="500"
+                    // loop="true"
+                    // pagination="true"
+
+                  >
+                    {projects.map((project, index) => (
+                      <>
+                        <SwiperSlide>
+                          <ProjectCard key={index} props={project} />
+                        </SwiperSlide>
+                      </>
+                    ))}
+                  </Swiper>
+                </>
+              )}
+              {matches.large && (
+                <>
+                  <Swiper
+                   spaceBetween={50}
+                   slidesPerView={1}
+                   onSlideChange={() => console.log('slide change')}
+                   onSwiper={(swiper) => console.log(swiper)}
+                  modules={[Navigation, Pagination]}
+                  navigation
+                  pagination={{ clickable: true }}
+                    // slides-per-view="1"
+                    // speed="500"
+                    // loop="true"
+                    // pagination="true"
+
+                  >
+                    {projects.map((project, index) => (
+                      <>
+                        <SwiperSlide>
+                          <ProjectCard key={index} props={project} />
+                        </SwiperSlide>
+                      </>
+                    ))}
+                  </Swiper>
+                </>
+              )}
+            </Fragment>
+          )}
+        </Media>
+      </div>
+
+    </>
   );
 }
 
