@@ -69,9 +69,9 @@ a {
  
 }
 
-.project-screenshot:hover{
+/* .project-screenshot:hover{
   border : 3px solid rgb(0, 217, 255);   
-}
+} */
 
 #footer-icons {
   display: flex;
@@ -113,6 +113,7 @@ a {
   align-items: center;
 
 }
+
 
 .proj-summary{
   text-align: center;
