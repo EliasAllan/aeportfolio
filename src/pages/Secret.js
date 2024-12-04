@@ -8,7 +8,7 @@ function Secret() {
   const handleSynthesize = async () => {
     try {
       const response = await axios.post('http://localhost:5000/api/synthesize', { text });
-      setAudioUrl(`http://localhost:5000/${response.data.fileName}`);
+      setAudioUrl(response.data.url);
     } catch (error) {
       console.error('Error:', error);
     }
