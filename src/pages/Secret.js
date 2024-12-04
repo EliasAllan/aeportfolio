@@ -9,6 +9,7 @@ function TextToSpeechApp() {
   const [audioUrl, setAudioUrl] = useState(null);
 
   const handleTextToSpeech = async () => {
+    setAudioUrl(null)
     try {
       const response = await client.textToSpeech.convert("21m00Tcm4TlvDq8ikWAM", {
         model_id: "eleven_multilingual_v2",
