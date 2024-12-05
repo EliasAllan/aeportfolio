@@ -31,10 +31,9 @@ function TextToSpeechApp() {
 
   return (
     <div className='dnd-text-to-speech-app'>
-      <textarea
+      <textarea className= 'narrator-text'
         value={text}
         onChange={(e) => setText(e.target.value)}
-        placeholder="Enter text"
       />
       <button onClick={handleTextToSpeech}>Convert to Speech</button>
       {audioUrl && (

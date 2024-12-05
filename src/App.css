@@ -58,6 +58,17 @@
   align-items: center;
 }
 
+.dnd-text-to-speech-app > * {
+  margin:30px 0;
+}
+
+.narrator-text {
+  width: 75vw;
+  height: 50vw;
+  background-color: white;
+  border-radius: 12px;
+}
+
 a {
   text-decoration: none;
   margin: 20px;
