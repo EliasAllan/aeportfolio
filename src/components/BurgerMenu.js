@@ -41,6 +41,13 @@ class BurgerMenu extends React.Component {
       to="/secret"
       >Secret
       </NavLink>
+
+      <NavLink 
+      id="secret"
+      className="navitem"
+      to="/pango"
+      >Pango
+      </NavLink>
   </>
     );
   }

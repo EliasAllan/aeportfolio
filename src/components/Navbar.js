@@ -46,6 +46,13 @@ function Navbar() {
       >Resume
       </NavLink>
 
+      <NavLink 
+      className="navitem"
+      to="/pango"
+      style={({ isActive }) => (isActive ? activeClassName : undefined)}
+      >Pango
+      </NavLink>
+
     </nav>
   );
 }

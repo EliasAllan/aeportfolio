@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Pango from "./pages/Pango";
 import Resume from "./pages/Resume";
 import Secret from "./pages/Secret";
 import { push as Menu } from "react-burger-menu";
@@ -26,6 +27,7 @@ function App() {
                 <Route path="contact" element={<Contact />} />
                 <Route path="resume" element={<Resume />} />
                 <Route path="secret" element={<Secret />} />
+                <Route path="pango" element={<Pango />} />
               </Route>
             </Routes>
             <Footer />

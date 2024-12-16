@@ -60,6 +60,13 @@ function Header() {
       >Resume
       </NavLink>
 
+      <NavLink 
+      className="navitem"
+      to="/pango"
+      style={({ isActive }) => (isActive ? activeClassName : undefined)}
+      >Pango
+      </NavLink>
+
       </Menu>
       
       <Link to="/" id="myname"><span></span>Allan Elias</Link>

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import { ElevenLabsClient } from "elevenlabs";
 
 const client = new ElevenLabsClient({ apiKey: "sk_10459e2efbf90ce578377e1f43dbf516667833e28265fa90" });
@@ -9,9 +8,10 @@ function TextToSpeechApp() {
   const [audioUrl, setAudioUrl] = useState(null);
 
   const handleTextToSpeech = async () => {
-    setAudioUrl(null)
+      setAudioUrl(null)
     try {
       const response = await client.textToSpeech.convert("21m00Tcm4TlvDq8ikWAM", {
+        // voice_id: "nvd86A9yjSArgbVm8pra",
         model_id: "eleven_multilingual_v2",
         text: text,
         output_format:"mp3_22050_32",
@@ -30,12 +30,14 @@ function TextToSpeechApp() {
   };
 
   return (
+    <>
     <div className='dnd-text-to-speech-app'>
+    <header className="storytelling-app-title">Storytelling App</header>
       <textarea className= 'narrator-text'
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button onClick={handleTextToSpeech}>Convert to Speech</button>
+      <button onClick={handleTextToSpeech} className="convert-button">Convert to Speech</button>
       {audioUrl && (
         <audio controls>
           <source src={audioUrl} type="audio/mp3" />
@@ -43,6 +45,7 @@ function TextToSpeechApp() {
         </audio>
       )}
     </div>
+    </>
   );
 }
 
